@@ -208,11 +208,11 @@ ul{
 		height: auto;
 		margin: 0;
 		margin-bottom: 4px;
-		min-height: 27.5%;
+		min-height: 25%;
 	}
 	.post__content{
 		width: 100%;
-		height: auto;
+		height: calc(75% - 4px);
 		margin: 0;
 	}
 }
