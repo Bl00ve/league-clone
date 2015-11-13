@@ -39,8 +39,6 @@ ul{
 	width: 100%;
 	background: #132533;
 	border: 1px solid #132533;
-	transform-origin: center;
-	transition: ease-in .2s;
 }
 .posts__post:hover .post-hero{
 	-webkit-filter: brightness(1);
@@ -216,15 +214,4 @@ ul{
 		height: calc(75% - 4px);
 		margin: 0;
 	}
-}
-
-.scale{
-	position: absolute;
-	width: 50%;
-	height: 50%;
-	top: 50%;
-	left: 50%;
-	transform: translateY(-50%) translateX(-50%) scale(2);
-	transform-origin: center;
-	z-index: 20000;	
 }

@@ -3,9 +3,27 @@
 var clone;
 $(".posts__post").click(function(e){
 	e.preventDefault();
-	$(".scale").removeClass("scale")
-	$(this).addClass("scale")
-	$(this).click(function(){
-		$(this).removeClass("scale");
+	clone = $(this).clone();
+	clone.css({
+		position: "absolute",
+		top: $(this).offset().top,
+		left: $(this).offset().left,
+		transition: "ease-in .2s"
 	})
+	clone.click(function(e){
+		e.preventDefault();
+		$(this).remove();
+	})
+
+	$(".posts").first().append(clone);
+	 clone.addClass("scale");
+	 setTimeout(function(){
+	 clone.css({
+		width: "100%",
+		height: "100%",
+		left: 0,
+		top: 0
+	 })
+	 }, 10)
+
 })	
