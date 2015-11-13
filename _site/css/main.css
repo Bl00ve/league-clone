@@ -33,13 +33,15 @@ ul{
 	margin: 0;
 	height: 100%;
 	width: 100%;
+	background: #132533;
+	border: 1px solid #132533;
 }
 .posts__post:hover .post-hero{
-	-webkit-filter: brightness(1.05);
+	-webkit-filter: brightness(1);
 }
 .post-hero{
-	transition: ease-in .2s;
-	-webkit-filter: brightness(1);
+	transition: ease-in .3s;
+	-webkit-filter: brightness(0.9);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -58,7 +60,10 @@ ul{
 .twos{
 	width: calc(25% - 4px);
 	margin-right: 4px;
-	height: 50%;
+	height: calc(50% - 2px);
+}
+.posts__post:nth-child(4), .post__posts:nth-child(5){
+	margin-top: 4px;
 }
 .post-link{
 	position: absolute;
@@ -79,12 +84,12 @@ ul{
 	float: left;
 	background: rgba(15,15,15,0.9);
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 18px;
 	max-height: 100%;
 	overflow: scroll;
 }
 .post-meta{
-	font-size: 1em;
+	font-size: .8em;
 	color: #BDB297;
 }
 .post__info h2{
