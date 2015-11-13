@@ -86,7 +86,7 @@ ul{
 	text-decoration: none;
 	font-size: 18px;
 	max-height: 100%;
-	overflow: scroll;
+	overflow: auto;
 }
 .post-meta{
 	font-size: .8em;
