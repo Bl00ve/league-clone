@@ -1,0 +1,155 @@
+*{
+	box-sizing: border-box;
+	font-family: Helvetica Neue, Segoe UI;
+}
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background: black;
+}
+ul{
+	padding-left: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.block-grid{
+	height: 100%;
+	width: 100%;
+}
+.posts{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	padding: 4px 0;
+}
+.posts__post{
+	float: left;
+	display: block;
+	position: relative;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+.posts__post:hover .post-hero{
+	-webkit-filter: brightness(1.05);
+}
+.post-hero{
+	transition: ease-in .2s;
+	-webkit-filter: brightness(1);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+.ones{
+	width: calc(50% - 8px);
+	margin: 0 4px;
+}
+.twos{
+	width: calc(25% - 4px);
+	margin-right: 4px;
+	height: 50%;
+}
+.post-link{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2000;
+}
+.post__info{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 4px 15px;
+	float: left;
+	background: rgba(15,15,15,0.9);
+	text-decoration: none;
+	font-size: 20px;
+	max-height: 100%;
+	overflow: scroll;
+}
+.post-meta{
+	font-size: 1em;
+	color: #BDB297;
+}
+.post__info h2{
+	margin: 5px 0;
+	font-weight: normal;
+	color: white;
+}
+.site-header, .site-footer{
+	padding: 40px;
+	width: 100%;
+	background-color: #ddd;
+}
+.site-header{
+	background-image: url(https://cdn3.artstation.com/p/assets/images/images/000/503/987/large/gilles-ketting-totalwararena-gillesketting-ext-05.jpg?1424960768);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 80px;
+}
+.site-footer{
+	background: #282828;
+	color: white;
+}
+.block-grid::after, .block::after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.site-title{
+	font-size: 2em;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	display: block;
+	text-shadow: 0 1px 5px rgba(0,0,0,0.3);
+}
+.post__back{
+	border: 2px solid #ddd;
+    padding: 5px;
+    margin: 15px 0;
+    color: #aaa;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.hero{
+	overflow: hidden
+}
+.hero-data{
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 10px;	
+}
+.content{
+	padding: 0 10px;
+	margin: 0;
+	line-height: 1.5em;
+	overflow: auto;
+}
+.content p, .content h1, .content h2, .content h3{
+	margin-top: 0;
+}
+.post__content{
+	display: none;
+}
+.post__content--visible{
+	display: block;
+	
+}

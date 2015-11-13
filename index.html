@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<ul class="block one posts">
+  {% for post in site.posts limit:1 %}
+    <li class="block ones posts__post">
+      <a class="post-link" href="{{site.baseurl}}/{{post.url}}"></a>
+      <div class="post-hero" style="background-image: url({{post.hero}})"></div>
+      <div class="post__info">
+        <h2>
+          {{ post.title }}
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post__content">
+          {{post.content}}
+         </span>
+      </div>
+      <div class="clear"></div>
+    </li>
+  {% endfor %}
+  {% for post in site.posts offset:1 limit: 4%}
+    <li class="block twos posts__post">
+      <a class="post-link" href="{{site.baseurl}}/{{post.url}}"></a>
+      <div class="post-hero" style="background-image: url({{post.hero}})"></div>
+      <div class="post__info">
+        <h2>
+          {{ post.title }}
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post__content">
+          {{post.content}}
+         </span>
+      </div>
+      <div class="clear"></div>
+    </li>
+  {% endfor %}
+  <div class="clear"></div>
+</ul>
