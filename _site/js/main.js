@@ -24,6 +24,6 @@ $(".posts__post").click(function(e){
 		left: 0,
 		top: 0
 	 })
-	 }, 10)
+	 }, 40)
 
 })	
