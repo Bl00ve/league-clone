@@ -158,3 +158,33 @@ ul{
 	display: block;
 	
 }
+
+@media only screen and (max-device-width : 667px)
+{ 
+	.posts{
+		padding: 0;
+	}
+	.ones{
+		width: calc(100% - 8px);
+		height: calc(33.3333% - 8px);
+		margin: 4px;
+	}
+	.twos{
+		width: calc(50% - 6px);
+		height: calc(33.3333% - 4px);
+		margin: 4px;
+		margin-top: 0;
+	}
+	.twos.twos:nth-child(even){
+		margin-right: 2px;
+	}
+	.twos.twos:nth-child(odd){
+		margin-left: 2px;
+	}
+	.twos:nth-child(4), .twos:nth-child(5){
+		margin-top: 0;
+	}
+	.post__info{
+		font-size: 14px;
+	}
+}
