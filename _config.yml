@@ -12,3 +12,6 @@ email: your-email@domain.com
 # Build settings
 markdown: kramdown
 baseurl: /league-clone
+
+prose: 
+  ignore: ["_includes", "_layouts", "_site", "css", "js", "img"]
