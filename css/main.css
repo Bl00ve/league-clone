@@ -39,7 +39,6 @@ ul{
 	width: 100%;
 	background: #132533;
 	border: 1px solid #132533;
-	transform: translate3d(0,0,0);
 }
 .posts__post:hover .post-hero{
 	-webkit-filter: brightness(1);
@@ -47,6 +46,7 @@ ul{
 .post-hero{
 	transition: ease-in .3s;
 	-webkit-filter: brightness(0.9);
+	-webkit-transform: translate3d(0,0,0);
 	position: absolute;
 	top: 0;
 	left: 0;
