@@ -14,4 +14,4 @@ markdown: kramdown
 baseurl: /league-clone
 
 prose: 
-  ignore: ["_includes", "_layouts", "_site", "css", "js", "img"]
+  ignore: ["_includes", "_layouts", "_site", "css", "js", "img", "index.html", "feed.xml", "about.md", ".jekyll-metadata", "*.xml"]
