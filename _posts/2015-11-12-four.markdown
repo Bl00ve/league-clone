@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Arcade Hecarim"
+date:   2015-11-10 11:26:24 +0000
+categories: jekyll update
+hero: https://i.ytimg.com/vi/6tC-DeNt0UM/maxresdefault.jpg
+---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend tempus erat, malesuada posuere mi fringilla sed. Fusce dictum iaculis lacus, a aliquam nulla aliquet ut. Maecenas id ex mattis, ultrices orci eget, pellentesque tellus. Sed viverra ante id molestie consectetur. Maecenas eu lectus quis quam sollicitudin venenatis. Praesent vitae condimentum lorem, ut sagittis sapien. Cras dictum sed libero ut hendrerit. Morbi a bibendum nulla, sit amet sollicitudin neque. Mauris id nulla sit amet elit pretium volutpat. In aliquam luctus augue. Aenean feugiat sem scelerisque imperdiet luctus. Proin tortor nulla, luctus sit amet pharetra vel, feugiat nec lacus. Nullam non.
